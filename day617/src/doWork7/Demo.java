@@ -28,7 +28,7 @@ public class Demo {
         System.out.println(sdf.format(d));
 
         String source  = "2012年12月12日 12:12:12";
-        System.out.println("当前时间为：");
+        System.out.println("当前时间的标准格式为：");
         System.out.println(sdf.parse(source));
 
     }
